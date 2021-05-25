@@ -1,7 +1,7 @@
-*Steps to run this project
+* Steps to run this project
 
 
-** set data directory
+   * set data directory
    * open docker-compose.yml
    * go to logstash container setup section and update the data directory in volume. Example given below. only update host machine path     <host-machine>:<container-directory>
         volumes:
@@ -9,12 +9,12 @@
 
 
 
-** update Elasticsearch host
+    * update Elasticsearch host
     * open ldap.conf
     * update output section of the config file with ES host details
 
 
-** update logstash.yml [optional]
+    * update logstash.yml [optional]
 
     * Open logstash.yml and update elasticsearch address. example:
         monitoring.elasticsearch.hosts:
