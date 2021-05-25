@@ -1,0 +1,6 @@
+*.zip
+*.csv*
+fb_data
+**/queue/**
+inputs.d
+filebeat.yml

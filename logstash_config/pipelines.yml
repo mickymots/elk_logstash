@@ -1,0 +1,9 @@
+
+- pipeline.id: LDAP-pipeline
+  path.config: "/etc/logstash/conf.d/ldap.conf"
+  queue.type: persisted
+
+
+# - pipeline.id: mssql-pipeline
+#   path.config: "/etc/logstash/conf.d/mssql.conf"
+#   queue.type: persisted
